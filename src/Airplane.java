@@ -17,6 +17,7 @@ public class Airplane {
         isDoubleDecker = false;
         length = 120;
 
+
     }
 
 }
