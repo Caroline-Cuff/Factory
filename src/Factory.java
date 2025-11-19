@@ -72,9 +72,17 @@ public class Factory {
         System.out.println("It is " + plane4.isDoubleDecker + " that it is a double decker");
         System.out.println(" ");
 
-        Airplane plane5= new Airplane(232);
+        Airplane plane5= new Airplane(232, "Freddy", "Beluga Airbus",true,238);
 
         plane5.printInfo();
+
+        Passengers johnny = new Passengers();
+        johnny.printPInfo();
+
+        Passengers jack = new Passengers("Jacob", false, 34, "Middle Seat");
+        jack.printPInfo();
+
+
 
 
 
